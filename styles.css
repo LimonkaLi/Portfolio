@@ -1,0 +1,541 @@
+/* сброс стилей браузера */
+* {
+  box-sizing: border-box; 
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+a {
+	text-decoration: none;
+}
+body {
+	background:  #FCF9F7;
+}
+.wrapper {
+
+	width: 1440px;
+	margin: 0 auto;
+	
+	
+}
+
+.home {
+	background-image: url(./images/Wedding.png);
+	background-repeat: no-repeat;
+	height: 900px;
+	overflow: hidden;
+}
+
+.container {
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 175px;
+	height: 228px;
+	left: 0px;
+	margin-top: 294px;
+	margin-left: 40px;
+	}
+
+.container a {
+	width: 95px;
+	height: 32px;
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 32px;
+	color: #2B1105;
+}
+
+a:visited {
+	color: #AAA;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+.banner h1 {
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 101px;
+	text-align: center;
+	color: #FCF9F7;
+	margin: 111px 370px 20px;
+}
+
+.banner p {
+
+	font-family: "Montaga";
+	font-size: normal;
+	font-size: 24px;
+	color: #FCF9F7;
+	text-align: center;
+	margin: 20px 370px 110px;
+}
+.our-story {
+	
+text-align: center;
+}
+
+.our-story .text {
+
+	width: 800px;
+	height: 235px;
+	text-align: center;
+	margin-left: 320px;
+	margin-bottom: 100px;
+}
+
+h2 {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	color: #2B1105;
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 64px;
+}
+
+.our-story .text p {
+
+font-family: Montaga;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #2B1105;
+text-align: left;
+line-height: 160%;
+margin-bottom: 20px;
+
+}
+
+h3 {
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #FCF9F7;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 32px;
+	
+	
+
+}
+
+button1 {
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	text-align: center;
+	color: #FCF9F7;
+	border: none;
+	background-color: #97917A;
+	border-bottom: 2px solid;
+	margin-right: 30px;
+	
+
+
+
+}
+button2 {
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	text-align: center;
+	color: #D2B48C;
+	border: none;
+	background-color: #97917A;
+	margin-right: 10px;
+
+}
+.button {
+	text-align: center;
+	}
+
+.content {
+	background-color: #97917A;
+	width: 1440px;
+	height: 655px;
+	margin: 100px auto;
+}
+
+.portfolio {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	margin: 100px 136px 96px 116px;
+}
+
+figcaption {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	line-height: 100%;
+	color: white;
+	padding-top: 24px;
+	
+}
+
+.resort {
+
+	padding: 93px 530px 0 530px;
+	
+}
+
+.resort figcaption {
+
+	font-family: Montaga;
+	font-style: normal;t
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 100%;
+	color: #C6754D;
+	text-align: center;
+	margin-top: 38px;
+
+
+}
+
+
+
+h4 {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 100%;
+	color: #2B1105;
+	text-align: center;
+	margin: 32px 320px 0 320px;
+	
+
+}
+
+.resort-text {
+	width: 800px;
+	height: 132px;
+	margin: 32px 320px 0 320px;
+	
+}
+
+.resort-text p {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+	color: #2B1105;
+		
+}
+
+.vector {
+
+	margin: 42.58px 600.83px 42px 599.43px;
+	opacity: 0.2;
+	
+}
+.information {
+
+	width: 431px;
+	height: 56px;
+	margin: 96px 504.5px 20px 504.5px;
+		
+}
+
+.information h5 {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 100%;
+	color: #2B1105;
+	text-align: center;
+
+		
+}
+.hotel p {
+
+	width: 350px;
+	height: 116px;
+	margin:32px 64px 32px 0px;
+		
+}
+.hotel p {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #2B1105;
+		
+	
+}
+.hotel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 32px 64px 32px 80px;
+		
+}
+
+.hotel h6 {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 43px;
+	line-height: 100%;
+	color: #2B1105;
+	text-align: left;
+
+	
+
+}
+
+.hotel button {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 24px;
+	color: #C6754D;
+	padding: 18px 26px;
+	margin-bottom: 96px;
+	border: 1px solid  #C6754D;
+}
+
+.gallery img {
+
+	margin-bottom: 128px;
+}
+
+.guide h7 {
+
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 100%;
+	text-align: center;
+	color: #2B1105;
+	margin: 96px 612.5px 66.5px 612.5px;
+	
+}
+
+.button-guide {
+
+	text-align: center;
+	margin-top: 64px;
+	background:  #FCF9F7;
+
+}
+
+.button-guide button1 {
+
+
+	font-family: Montaga;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 100%;
+	color: #2B1105;
+	border: none;
+	border-bottom: 2px solid #C6754D;
+	background-color:  #FCF9F7;
+	margin: 0 64px 64px 0;
+}
+ 
+ .button-guide button2 {
+
+ 	font-family: Montaga;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 18px;
+ 	line-height: 100%;
+ 	color: #2B1105;
+ 	border: none;
+ 	background-color:  #FCF9F7;
+ 	margin: 0px 64px 64px 0;
+ }
+
+ .button-guide button3 {
+
+	font-family: Montaga;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 18px;
+ 	line-height: 100%;
+ 	color: #2B1105;
+ 	border: none;
+ 	background-color:  #FCF9F7;
+ 	margin: 0 ;
+ }
+
+.wrapper {
+	width: 1440px;
+	
+
+}
+.button-time {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+span {
+ 	font-family: Montaga;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 24px;
+ 	line-height: 100%;
+ 	color: #C6754D;
+ 	width: 184px;
+ 	height: 24px;
+
+ }
+
+ .button-time span {
+ 	 	padding: 64px 980px 0 276px;
+ }
+
+h8 {
+
+ 	font-family: Montaga;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 32px;
+ 	line-height: 100%;
+ 	color: #2B1105;
+ 	
+ 
+}
+
+.button-time h8 {
+
+
+	padding: 0px 781px 32px 524px;
+}
+
+h9 {
+
+	font-family: Montaga;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 32px;
+ 	line-height: 100%;
+ 	color: #2B1105;
+ 	padding: 24px 781px 32px 524px;	
+}
+
+
+.button-time p {
+
+	width: 590px;
+	height: 87px;
+	font-family: Montaga;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #2B1105;
+	margin: 0 276px 0 484px;
+
+}
+
+.emblem {
+
+	margin: 139px 600.83px 42px 599.43px;
+	opacity: 0.2;
+	
+}
+.record img {
+
+	background:;
+	opacity: 0.6;
+	margin: 96px 328px 64px 312px;
+}
+
+.frame {
+	width: 752px;
+	height: 100.8px;
+	opacity: 0.2;
+	margin: 0 352px 260px 336px;
+}
+
+.frame {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.finish {
+	width: 800px;
+	height: 207px;
+	opacity: 0.2;
+	
+}
+
+.finish img {
+
+	margin-left: 620px;
+}
+/* пользовательские стили  */
+
+/* раскомментируйте этот стиль, если хотите всю страницу, включая фоновый цвет, ограничить центрированным блоком размером 1200 пикселов  */
+/*.pageWrapper {
+	max-width: 1200px;
+	margin: 0 auto;	
+}*/
+
+
+
+
+
+
