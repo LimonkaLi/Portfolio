@@ -163,7 +163,7 @@ h3 {
 	text-align: center;
 	}
 
-button:nth-child(odd) {
+.button button:nth-child(odd) {
 	
 	text-align: center;
 	color: #FCF9F7;
@@ -176,7 +176,7 @@ button:nth-child(odd) {
 
 
 }
-button:nth-child(even) {
+.button button:nth-child(even) {
 	
 	text-align: center;
 	color: #D2B48C;
