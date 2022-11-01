@@ -171,7 +171,7 @@ h3 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 56px;
-	align-text: center;
+	text-align: center;
 	color: #FCF9F7;
 	width: 305px;
 	height: 56px; 
@@ -189,7 +189,7 @@ h3 {
 	font-style:normal;
 	font-weight: 400;
 	font-size:56px;
-	align-text: center;
+	text-align: center;
 	color: #FCF9F7;
 	opacity: 0.3;
 	width: 279px;
