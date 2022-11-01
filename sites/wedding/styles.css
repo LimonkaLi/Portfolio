@@ -170,6 +170,7 @@ h3 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 56px;
+	text-align: center;
 	color: #FCF9F7;
 	border: none;
 	background-color: #97917A;
@@ -185,6 +186,7 @@ h3 {
 	font-style:normal;
 	font-weight: 400;
 	font-size:56px;
+	text-align: center;
 	color: #FCF9F7;
 	opacity: 0.3;
 	border: none;
