@@ -162,11 +162,9 @@ h3 {
 	font-size: 56px;
 	text-align: center;
 	
-	
-	
-	}
+}
 
-.button button:nth-child(odd) {
+ button:nth-child(odd) {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
