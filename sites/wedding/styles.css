@@ -156,11 +156,8 @@ h3 {
 
 }
 
-button1 {
-	font-family: "Montaga";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 56px;
+button:first-child {
+	
 	text-align: center;
 	color: #FCF9F7;
 	border: none;
@@ -172,11 +169,8 @@ button1 {
 
 
 }
-button2 {
-	font-family: "Montaga";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 56px;
+button:last-child {
+	
 	text-align: center;
 	color: #D2B48C;
 	border: none;
@@ -185,6 +179,10 @@ button2 {
 
 }
 .button {
+	font-family: "Montaga";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
 	text-align: center;
 	}
 
