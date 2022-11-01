@@ -186,7 +186,7 @@ h3 {
 	margin-right: 30px;
 	
 }
-	button:last-child {
+	button:nth-child(2) {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
