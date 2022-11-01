@@ -185,9 +185,6 @@ h3 {
 	border-bottom: 2px solid;
 	margin-right: 30px;
 	
-
-
-
 }
 	button:nth-child(even) {
 	font-family: "Montaga";
@@ -239,11 +236,15 @@ figcaption {
 }
 	
 	
-.resort img {
-	width: 380px;
-	height: 285px;
+.resort  {
+	
 	padding: 93px 530px 0 530px;
 	
+}
+.resort img {
+	
+	width: 380px;
+	height: 285px;
 }
 
 .resort figcaption {
@@ -256,8 +257,6 @@ figcaption {
 	color: #C6754D;
 	text-align: center;
 	margin-top: 38px;
-
-
 }
 
 
@@ -302,10 +301,6 @@ h4 {
 	
 }
 
-.vector img {
-	width: 239.74px;
-	height: 270.42px;
-}
 
 .information {
 
