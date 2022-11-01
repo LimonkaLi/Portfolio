@@ -239,8 +239,9 @@ figcaption {
 }
 	
 	
-.resort {
-
+.resort img {
+	width: 380px;
+	height: 285px;
 	padding: 93px 530px 0 530px;
 	
 }
