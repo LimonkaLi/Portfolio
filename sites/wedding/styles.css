@@ -171,7 +171,7 @@ h3 {
 	
 }
 
- button:nth-child(odd) {
+ button:thirst-child {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
@@ -186,7 +186,7 @@ h3 {
 	margin-right: 30px;
 	
 }
-	button:only-child {
+	button:last-child {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
