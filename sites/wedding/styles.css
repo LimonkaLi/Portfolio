@@ -184,7 +184,7 @@ h3 {
 
 
 }
-.button button:nth-child(even) {
+	button:nth-child(even) {
 	font-family: "Montaga";
 	font-style:normal;
 	font-weight: 400;
