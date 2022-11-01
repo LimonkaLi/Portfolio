@@ -296,12 +296,17 @@ h4 {
 }
 
 .vector {
-	width: 239.74px;
-	height: 270.42px;
+	
 	margin: 42.58px 600.83px 42px 599.43px;
 	opacity: 0.2;
 	
 }
+
+.vector img {
+	width: 239.74px;
+	height: 270.42px;
+}
+
 .information {
 
 	width: 431px;
@@ -370,7 +375,7 @@ h4 {
 	font-size: 22px;
 	line-height: 24px;
 	color: #C6754D;
-	background: #FCF9F7;
+	background-color: #FCF9F7;
 	padding: 18px 26px;
 	margin-bottom: 96px;
 	border: 1px solid  #C6754D;
