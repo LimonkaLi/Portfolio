@@ -179,7 +179,8 @@ h3 {
 .button button:nth-child(even) {
 	
 	text-align: center;
-	color: #D2B48C;
+	color: #FCF9F7;
+	opacity: 0.3;
 	border: none;
 	background-color: #97917A;
 	margin-right: 10px;
