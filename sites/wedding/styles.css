@@ -226,6 +226,12 @@ figcaption {
 	
 }
 
+.element img {
+	width: 200px;
+	height: 200px;
+}
+	
+	
 .resort {
 
 	padding: 93px 530px 0 530px;
