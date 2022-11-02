@@ -162,7 +162,7 @@ h3 {
 	
 
 }
-.button {
+.marker {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
@@ -395,7 +395,7 @@ h4 {
 	
 }
 
-.button-guide {
+.date-guide {
 
 	text-align: center;
 	margin-top: 64px;
@@ -403,7 +403,7 @@ h4 {
 
 }
 
-.button-guide button1 {
+.date-guide button {
 
 
 	font-family: Montaga;
@@ -417,7 +417,7 @@ h4 {
 	margin: 0 64px 64px 0;
 }
  
- .button-guide button2 {
+ .date-guide button {
 
  	font-family: Montaga;
  	font-style: normal;
@@ -430,7 +430,7 @@ h4 {
  	margin: 0px 64px 64px 0;
  }
 
- .button-guide button3 {
+ .date-guide button {
 
 	font-family: Montaga;
  	font-style: normal;
@@ -445,9 +445,8 @@ h4 {
 
 .wrapper {
 	width: 1440px;
-	
+	}
 
-}
 .button-time {
 	display: flex;
 	flex-direction: column;
@@ -469,7 +468,7 @@ span {
  }
 
  .button-time span {
- 	 	padding: 64px 980px 0 276px;
+ 	 padding: 64px 980px 0 276px;
  }
 
 h8 {
