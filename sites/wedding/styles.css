@@ -362,7 +362,7 @@ h4 {
 
 }
 
-.hotel button {
+.hotel btn {
 
 	font-family: Montaga;
 	font-style: normal;
@@ -405,7 +405,7 @@ h4 {
 
 }
 
-.date-guide button:first-child {
+.date-guide btn:first-child {
 
 
 	font-family: Montaga;
@@ -419,7 +419,7 @@ h4 {
 	margin: 0 64px 64px 0;
 }
  
- .date-guide button {
+ .date-guide btn {
 
  	font-family: Montaga;
  	font-style: normal;
@@ -432,7 +432,7 @@ h4 {
  	margin: 0px 64px 64px 0;
  }
 
- .date-guide button {
+ .date-guide btn {
 
 	font-family: Montaga;
  	font-style: normal;
