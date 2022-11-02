@@ -188,7 +188,7 @@ h3 {
 	margin-right: 30px;
 	
 }
-btn:last-child {
+btn:nth-child(even) {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
