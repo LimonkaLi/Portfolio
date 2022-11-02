@@ -171,7 +171,7 @@ h3 {
 	
 }
 
- btn:nth-child(odd) {
+ .strawberry btn  {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
@@ -186,7 +186,7 @@ h3 {
 	margin-right: 30px;
 	
 }
-btn:nth-child(even) {
+.blueberry btn {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
