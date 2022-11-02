@@ -522,9 +522,16 @@ h9 {
 	opacity: 0.2;
 	
 }
+
+.emblem img {
+width: 239.74px;
+height: 270.42px;
+	
+}
 .record img {
 
-	background:;
+	width: 800px;
+	height: 207px;
 	opacity: 0.6;
 	margin: 96px 328px 64px 312px;
 }
