@@ -1,0 +1,285 @@
+/* сброс стилей браузера */
+* {
+  box-sizing: border-box; 
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+a {
+	text-decoration: none;
+}
+
+html {
+	min-height: 100%;
+	
+}	
+
+body {
+
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	width: 100%;
+}
+
+.logo {
+	width: 132px;
+	height: 56px;
+	
+}
+
+.logo img {
+
+	margin: 23px 260px 0 104px;
+}
+
+
+.btn-nav {
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px 32px;
+	gap: 10px;
+	width: 202px;
+	height: 48px;
+	margin-left: 1134px;
+	margin-top: -32px;
+	background: #D61F00;
+}
+
+.btn-nav button {
+
+width: 138px;
+height: 32px;
+font-family: 'Mulish',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+color: #FFFFFF;
+background: #D61F00;
+border: none;
+
+}
+
+
+.nav-container {
+
+	display: flex;
+ 	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 48px;
+	width: 435px;
+	height: 22.95px;
+	margin-left: 460px;
+ 	
+
+}
+
+
+.nav-container a {
+
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #0A2647;
+	margin-top: 120px;
+	
+}
+
+.nav-container a.home {
+
+	
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	color: #0A2647;
+}
+
+.banner {
+
+	width: 1440px ;
+	height: 880px;
+	margin-left: 0px;
+	margin-top: 102px;
+	background: #06163A;
+	opacity: 0.8;
+
+}
+.banner h1 {
+
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 96px;
+	color: #FFFFFF;
+	width: 936px;
+	height: 192px;
+	margin-left: 104px;
+	margin-top: 266px;
+}
+
+.banner p {
+
+	font-family: 'Mulish,sans-serif;';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	width: 580px;
+	height: 52px;
+	margin-left: 104px;
+	margin-top: 24px;
+}
+
+.banner button {
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px 40px;
+	gap: 10px;
+	width: 166px;
+	height: 64px;
+	margin-left: 104px;
+	margin-top: 56px;
+	background: #D61F00;
+	border: none;
+}
+
+
+.btn-banner {
+
+	
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 86px;
+	height: 32px;
+}
+
+.group {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 1232px;
+	height: 348px;
+	margin-left: 0px;
+	margin-top: 120px;
+	
+
+}
+
+.group h6 {
+
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 38px;
+	color: gold;
+	text-align: left;
+}
+
+.group p {
+
+
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: gold;
+	text-align: center;
+	
+}
+
+.group button {
+
+	font-family: 'Mulish',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	color: #FFFFFF;
+	
+}
+
+.card-first {
+
+	width: 396px;
+	height: 348px;
+	margin-left: 104px;
+	
+	background: #06163A;
+	box-shadow: 0px 48px 120px rgba(187, 187, 187, 0.25);
+}
+
+
+
+
+
+
+
+
+footer {
+	margin-top: auto;
+
+}
+
+
+
+
+
+
+
+/* пользовательские стили  */
+
+/* раскомментируйте этот стиль, если хотите всю страницу, включая фоновый цвет, ограничить центрированным блоком размером 1200 пикселов  */
+/*.pageWrapper {
+	max-width: 1200px;
+	margin: 0 auto;	
+}*/

@@ -35,7 +35,8 @@ a {
 	text-decoration: none;
 }
 body {
-	background:  #FCF9F7;
+	background: #FCF9F7;
+
 }
 .wrapper {
 
@@ -173,7 +174,7 @@ h3 {
 }
 
 
- btn:nth-child(odd)  {
+ .marker button:first-child  {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
@@ -188,7 +189,7 @@ h3 {
 	margin-right: 30px;
 	
 }
-btn:nth-child(even) {
+.marker button:last-child {
 	font-family: "Montaga";
 	font-style: normal;
 	font-weight: 400;
@@ -252,7 +253,7 @@ figcaption {
 .resort figcaption {
 
 	font-family: Montaga;
-	font-style: normal;t
+	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 100%;
@@ -364,7 +365,7 @@ h4 {
 
 }
 
-.hotel btn {
+.hotel button {
 
 	font-family: Montaga;
 	font-style: normal;
@@ -405,21 +406,22 @@ h4 {
 
 }
 
-.date-guide btn:first-child {
+.date-guide button:first-child {
 
 
 	font-family: Montaga;
 	font-style: normal;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 100%;
 	color: #2B1105;
 	border: none;
 	border-bottom: 2px solid #C6754D;
 	background-color:  #FCF9F7;
-	margin: 0 64px 64px 0;
+	margin: 0 15px 64px 0;
 }
  
- .date-guide btn {
+ .date-guide button {
 
  	font-family: Montaga;
  	font-style: normal;
@@ -432,7 +434,7 @@ h4 {
  	margin: 0px 64px 64px 0;
  }
 
- .date-guide btn {
+ .date-guide button {
 
 	font-family: Montaga;
  	font-style: normal;
@@ -442,7 +444,7 @@ h4 {
  	color: #2B1105;
  	border: none;
  	background-color:  #FCF9F7;
- 	margin: 0 ;
+ 	margin: 0 0 0 5px;
  }
 
 .wrapper {
