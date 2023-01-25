@@ -202,72 +202,92 @@ body {
 	align-items: center;
 }
 
-.card {
-width: 296px;
-height: 348px;
-background: rgb(255, 255, 255);
-margin-left: 16px;
-
-}
-
-
-.card span {
-
-	color: rgb(10, 38, 71);
-}
-
-.card p {
-	color: rgb(122, 122, 122);
-}
-
-.card a {
-
-color: rgb(214, 31, 0)
-}
-
 .card-blue {
 width: 296px;
-height: 348px;
 background: rgb(6, 22, 58);
+
+}
+
+.card-blue span, p, a {
+
 color: rgb(255, 255, 255);
 }
 
-.group img {
-	
-	padding: 32px 208px 40px 24px;
+.card {
+width: 296px;
+background: rgb(255, 255, 255);
+margin-left: 16px;
+padding: 32px 24px;
 
 }
-.group span {
 
+.card:first-child {
+
+	margin: 0;
+}
+
+.card::before {
+
+	content: '';
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+	background: #D7E5F0;
+	display: block;
+}
+
+.card-blue::before {
+
+	background: white;
+}
+
+
+
+.card span {
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 38px;
-	padding: 40px 172px 0px 24px;
-	
+	padding: 40px 0 0;
+	color: rgb(10, 38, 71);
+	display: block;
 }
-.group p {
 
-
+.card p {
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-	padding: 16px 24px 20px 24px;
-	
+	padding: 16px 0 20px;
+	color: rgb(122, 122, 122);
 }
 
-.group a {
-
+.card a {
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 32px;
-	padding: 16px 200px 32px 24px;
-	
+	padding: 16px 0 0;
+	color: rgb(214, 31, 0);
+}
+
+
+
+
+.card .circle {
+
+border-radius: 50%;
+width: 64px;
+height: 64px;
+background: #D7E5F0;
+}
+
+.card-blue .circle {
+
+	background: white;
 }
 
 
