@@ -1,6 +1,6 @@
 /* сброс стилей браузера */
 * {
-  box-sizing: border-box; 
+	box-sizing: border-box; 
 }
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
@@ -51,59 +51,55 @@ body {
 	width: 100%;
 }
 
+.wrapper {
+
+	margin: 0 104px;
+	height: 100%;
+}
+
+
+
+.header {
+
+	height: 102px;
+}
+
+.header-content {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+
+}
+
 .logo {
 	width: 132px;
 	height: 56px;
 	
 }
 
-.logo img {
-
-	margin: 23px 260px 0 104px;
-}
-
 
 .btn-nav {
 
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 8px 32px;
-	gap: 10px;
 	width: 202px;
 	height: 48px;
-	margin-left: 1134px;
-	margin-top: -32px;
-	background: #D61F00;
+	
 }
 
-.btn-nav button {
-
-width: 138px;
-height: 32px;
-font-family: 'Mulish',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 32px;
-color: #FFFFFF;
-background: #D61F00;
-border: none;
-
-}
 
 
 .nav-container {
 
 	display: flex;
- 	flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 	padding: 0px;
-	gap: 48px;
 	width: 435px;
-	height: 22.95px;
-	margin-left: 460px;
- 	
+
+
+
 
 }
 
@@ -116,7 +112,7 @@ border: none;
 	font-size: 16px;
 	line-height: 26px;
 	color: #0A2647;
-	margin-top: 120px;
+	
 	
 }
 
@@ -133,14 +129,11 @@ border: none;
 
 .banner {
 
-	width: 1440px ;
-	height: 880px;
-	margin-left: 0px;
-	margin-top: 102px;
-	background: #06163A;
-	opacity: 0.8;
+	width: 100%;
+	background: rgba(6, 22, 58, 0.8);
 
 }
+
 .banner h1 {
 
 	font-family: 'Mulish',sans-serif;
@@ -151,7 +144,6 @@ border: none;
 	color: #FFFFFF;
 	width: 936px;
 	height: 192px;
-	margin-left: 104px;
 	margin-top: 266px;
 }
 
@@ -165,65 +157,96 @@ border: none;
 	color: #FFFFFF;
 	width: 580px;
 	height: 52px;
-	margin-left: 104px;
 	margin-top: 24px;
 }
 
-.banner button {
 
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 16px 40px;
-	gap: 10px;
-	width: 166px;
-	height: 64px;
-	margin-left: 104px;
-	margin-top: 56px;
-	background: #D61F00;
-	border: none;
-}
 
 
 .btn-banner {
 
 	
+	width: 166px;
+	height: 64px;
+	margin-top: 56px;
+	margin-bottom: 328px;
+	
+}
+
+.btn-red {
+
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 32px;
 	text-align: center;
 	color: #FFFFFF;
-	width: 86px;
-	height: 32px;
+	background: #D61F00;
+	border: none;
 }
 
 .group {
 
+	width: 100%;
+	height: 348px;
+	margin-top: -208px;
+
+
+	
+}
+.group .wrapper {
+
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
-	width: 1232px;
-	height: 348px;
-	margin-left: 0px;
-	margin-top: 120px;
-	
+}
+
+.card {
+width: 296px;
+height: 348px;
+background: rgb(255, 255, 255);
+margin-left: 16px;
 
 }
 
-.group h6 {
+
+.card span {
+
+	color: rgb(10, 38, 71);
+}
+
+.card p {
+	color: rgb(122, 122, 122);
+}
+
+.card a {
+
+color: rgb(214, 31, 0)
+}
+
+.card-blue {
+width: 296px;
+height: 348px;
+background: rgb(6, 22, 58);
+color: rgb(255, 255, 255);
+}
+
+.group img {
+	
+	padding: 32px 208px 40px 24px;
+
+}
+.group span {
 
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 38px;
-	color: gold;
-	text-align: left;
+	padding: 40px 172px 0px 24px;
+	
 }
-
 .group p {
 
 
@@ -232,33 +255,28 @@ border: none;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-	color: gold;
-	text-align: center;
+	padding: 16px 24px 20px 24px;
 	
 }
 
-.group button {
+.group a {
 
 	font-family: 'Mulish',sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 32px;
-	color: #FFFFFF;
+	padding: 16px 200px 32px 24px;
 	
 }
 
-.card-first {
 
-	width: 396px;
-	height: 348px;
-	margin-left: 104px;
-	
-	background: #06163A;
-	box-shadow: 0px 48px 120px rgba(187, 187, 187, 0.25);
+
+
+.content  {
+
+	margin-top: 260px;
 }
-
-
 
 
 
