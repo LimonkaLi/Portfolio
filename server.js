@@ -14,7 +14,7 @@ createProxyMiddleware({
 );
 app.use(express.static('.'))
 app.listen(8080);
-console.log('Сервер запущен по адресу ыyayy')
+console.log('Сервер запущен по адресу http://127.0.0.1:8080')
 
 
 

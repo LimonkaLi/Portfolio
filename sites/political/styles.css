@@ -202,17 +202,6 @@ body {
 	align-items: center;
 }
 
-.card-blue {
-width: 296px;
-background: rgb(6, 22, 58);
-
-}
-
-.card-blue span, p, a {
-
-color: rgb(255, 255, 255);
-}
-
 .card {
 width: 296px;
 background: rgb(255, 255, 255);
@@ -234,6 +223,7 @@ padding: 32px 24px;
 	height: 64px;
 	background: #D7E5F0;
 	display: block;
+
 }
 
 .card-blue::before {
@@ -274,7 +264,15 @@ padding: 32px 24px;
 	color: rgb(214, 31, 0);
 }
 
+.card-blue {
+width: 296px;
+background: rgb(6, 22, 58);
+}
 
+.card-blue span, .card-blue p, .card-blue a {
+
+color: rgb(255, 255, 255);
+}
 
 
 .card .circle {
@@ -291,12 +289,32 @@ background: #D7E5F0;
 }
 
 
+.box {
 
-
-.content  {
-
-	margin-top: 260px;
+	width: 712px;
+	height: 568px;
+	margin-left: 0;
+	margin-top: 160px;
+	background: #E6E6E6;
 }
+
+.box img {
+
+	margin: 271.98px 343.66px;
+}
+
+.box::before {
+
+content: '';
+border-radius: 50%;
+width: 56px;
+height: 56px;
+background: white;
+display: block;
+margin: 256px 328px;
+
+}
+
 
 
 
