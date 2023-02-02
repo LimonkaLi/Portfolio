@@ -291,29 +291,23 @@ background: #D7E5F0;
 
 .box {
 
-	width: 712px;
-	height: 568px;
-	margin-left: 0;
-	margin-top: 160px;
-	background: #E6E6E6;
-}
-
-.box img {
-
-	margin: 271.98px 343.66px;
-}
-
-.box::before {
-
-content: '';
-border-radius: 50%;
-width: 56px;
-height: 56px;
-background: white;
-display: block;
-margin: 256px 328px;
 
 }
+
+
+
+
+
+
+
+.play img {
+
+
+
+
+
+}
+
 
 
 
