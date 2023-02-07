@@ -289,28 +289,78 @@ background: #D7E5F0;
 }
 
 
+
+
+.about {
+	display: flex;
+	flex-direction: row;
+	
+	
+}
+
+
 .box {
 
 
-}
-
-
-
-
-
-
-
-.play img {
-
-
-
-
+width: 712px;
+height: 568px;
+margin-top: 160px;
+margin-left: 0;
+background: #E6E6E6;
 
 }
 
+.icon {
+	position: relative;
+	top: 250px;
+	right: -290px;
+}
+
+.play {
+	position: relative;
+	top: 232px;
+	right: -340px;
+}
+
+.play {
+
+	z-index: 1;
+}
 
 
+.carolina h2 {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	color: #0A2647;
+	width: 504px;
+	height: 128px;
+	margin-top: 256px;
+	margin-left: 56px;
+	padding: 0;
+}
+.carolina p {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #7A7A7A;;
+	width: 528px;
+	height: 104px;
+	margin-top: 24px;
+	margin-left: 56px;
+	padding: 0;
+}
 
+.carolina button {
+	width: 166px;
+	height: 64px;
+	margin-top: 56px;
+	margin-left: 56px;
+}
 
 
 
