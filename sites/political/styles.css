@@ -49,6 +49,7 @@ body {
 
 body {
 	width: 100%;
+	background: whitesmoke;
 }
 
 .wrapper {
@@ -192,9 +193,8 @@ body {
 	height: 348px;
 	margin-top: -208px;
 
-
-	
 }
+
 .group .wrapper {
 
 	display: flex;
@@ -288,26 +288,20 @@ background: #D7E5F0;
 	background: white;
 }
 
-
-
-
 .about {
 	display: flex;
 	flex-direction: row;
-	
 	
 }
 
 
 .box {
 
-
 width: 712px;
 height: 568px;
 margin-top: 160px;
 margin-left: 0;
-background: #E6E6E6;
-
+background-color: #E6E6E6;
 }
 
 .icon {
@@ -362,6 +356,165 @@ background: #E6E6E6;
 	margin-left: 56px;
 }
 
+
+.service h2 {
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+color: #0A2647;
+width: 570px;
+height: 128px;
+margin-top: 161px;
+margin-left: 104px;
+padding: 0;
+
+}
+
+.service p {
+
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #7A7A7A;
+	width: 608px;
+	height: 52px;
+	margin-top: 24px;
+	margin-left: 104px;
+	padding: 0;
+}
+
+
+
+.group1 {
+
+	height: 320px;
+	margin-top: 64px;
+	margin-left: 104px;
+}
+
+
+
+.card1 {
+
+	width: 296px;
+	height: 320px;
+	background: yellow;
+	padding: 32px 32px;
+}
+
+.card1:first-child {
+margin: 0;
+}
+
+.health {
+
+	margin-top: -266px;
+	margin-left: 280px;
+}
+
+.money {
+
+	margin: 16px 0 0 104px;
+
+}
+.card-white {
+
+	width: 296px;
+	height: 320px;
+	background: white;
+}
+
+.circle {
+
+	position: relative;
+	padding-top: 0px;
+	padding-left: 0px;
+
+}
+.build {
+
+	position: relative;
+	top: -19px;
+	right: 53px;
+}
+
+.plus {
+
+	position: relative;
+	top: -35px;
+	left: -79px;
+}
+
+.plus {
+
+	z-index: 1;
+}
+
+.build {
+	z-index: 2;
+}
+
+.card1 span {
+
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 38px;
+	color: #0A2647;
+	padding-top: 24px;
+	display: block;
+
+}
+
+.card1 p {
+
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #7A7A7A;
+	width: 229px;
+	height: 104px;
+	padding-top: 10px;
+	
+}
+
+.circle {
+
+	position: relative;
+	padding-top: 0px;
+	padding-left: 0px;
+
+}
+.list {
+
+	position: relative;
+	top: -19px;
+	right: 50px;
+}
+
+.plus1 {
+
+	position: relative;
+	top: -28px;
+	left: -73px;
+}
+
+.plus1 {
+
+	z-index: 1;
+}
+
+.list {
+	z-index: 2;
+}
 
 
 
